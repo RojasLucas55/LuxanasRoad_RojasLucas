@@ -1,9 +1,13 @@
 import NavBar from "./NavBar"
 
-const Header = () => {
+const Header = ( parametros) => {
+
+    console.log(parametros)
+
     return (
-        <header>
+        <header id= "main-header">
             <h1>Luxana's Road</h1>
+            <h2>{parametros.saludo}</h2>
             <NavBar/>
         </header>
     )
