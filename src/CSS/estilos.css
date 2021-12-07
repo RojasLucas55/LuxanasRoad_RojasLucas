@@ -36,3 +36,18 @@ a:hover{
     background-color: rgb(43, 43, 43);
     border-radius: 10%;
 }
+
+main{
+    padding: 1rem;
+    flex-grow: 1;
+}
+.Greeting{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
