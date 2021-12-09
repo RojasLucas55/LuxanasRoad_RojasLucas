@@ -1,11 +1,35 @@
-import Contador from "./ItemCount" 
-export const ItemListContainer = (parametros) => {
-    return (
-        <div>
-            <h2 className="Greeting">{parametros.saludo}</h2>
-            <Contador/>
-        </div>
-    )
-}
+import { useState, useEffect } from "react";
+import Contador from "./ItemCount";
+const ItemListContainer = (parametros) => {
+  const [mensaje, setMensaje] = useState("Estamos cargando todo para vos ... ");
 
-export default ItemListContainer
+  useEffect(() => {
+    const promesa = new Promise((res, rej) => {
+      setTimeout(() => {
+        if (Math.random() > 0.5) {
+          res();
+        } else {
+          rej();
+        }
+      }, 2000);
+    });
+    promesa
+      .then(() => {
+        setMensaje("Todo salio bien");
+      })
+      .catch(() => {
+        setMensaje("Todo salio mal");
+      });
+
+  }, []);
+
+  return (
+    <div>
+      <h2 className="Greeting">{parametros.saludo}</h2>
+      <p id="loading">{mensaje}</p>
+      <Contador />
+    </div>
+  );
+};
+
+export default ItemListContainer;

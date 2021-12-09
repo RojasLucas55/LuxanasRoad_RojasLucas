@@ -1,7 +1,7 @@
 import CartWidget from "./CartWidget"
 import NavBar from "./NavBar"
 
-const Header = ( parametros) => {
+const Header = () => {
 
     return (
         <header id= "main-header">

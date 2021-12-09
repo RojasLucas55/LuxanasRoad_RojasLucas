@@ -14,7 +14,7 @@ const Contador = () => {
     } 
 
     return (
-        <div>
+        <div id="contador-card">
             <Button variant="primary" onClick={aumentarContador}>+</Button>
             <p> {contador} </p>
             <Button variant="danger" onClick={restarContador}>-</Button>

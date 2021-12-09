@@ -1,5 +1,4 @@
-
-export const Main = () => {
+const Main = () => {
     return (
         <main>
             <h2> Nuestros Productos </h2>

@@ -28,13 +28,14 @@ a{
     padding: 1rem;
     text-decoration: none;
     color: white;
-    margin: auto;
     justify-content: space-between;
+    align-items: center;
 }
 
 a:hover{
     background-color: rgb(43, 43, 43);
     border-radius: 10%;
+    color: gray;
 }
 
 main{
@@ -50,4 +51,20 @@ footer{
     color: white;
     text-align: center;
     padding: 0.5rem;
+}
+
+#loading{
+    font-size: 2em;
+    text-align: center;
+}
+
+#contador-card{
+    padding: auto;
+    margin: 2em;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 250px;
+
 }
