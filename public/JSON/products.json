@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remera Batman",
+        "precio": 1300,
+        "stock": 10,
+        "imgURL": "IMG/img/batmannegra.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Taza Harry Potter",
+        "precio": 550,
+        "stock":5,
+        "imgURL": "IMG/img/tazaHP.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Funda Harry Potter",
+        "precio": 650,
+        "stock":10,
+        "imgURL": "IMG/img/fundaHP.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Remera La Sirenita",
+        "precio": 1000,
+        "stock":5,
+        "imgURL": "IMG/img/duh.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Remera de los GUN'S",
+        "precio": 600,
+        "stock":5,
+        "imgURL": "IMG/img/guns1.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Remera Jocker",
+        "precio": 800,
+        "stock":10,
+        "imgURL": "IMG/img/jocker.jpg"
+    }
+]
