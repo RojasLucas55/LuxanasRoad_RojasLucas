@@ -1,7 +1,7 @@
 import ItemDetail from "./ItemDetail"
 const ItenDetailContainer = () => {
     return (
-        <div>
+        <div className="ItemListContainer">
             <ItemDetail/>
         </div>
     )

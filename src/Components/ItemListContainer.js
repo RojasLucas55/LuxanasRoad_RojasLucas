@@ -1,4 +1,3 @@
-import Contador from "./ItemCount";
 import ItemList from "./ItemList";
 
 const ItemListContainer = (parametros) => {
@@ -7,31 +6,31 @@ const ItemListContainer = (parametros) => {
     {
         id: 1,
         name: "Remera Batman",
-        price: 1300,
+        price: 1350,
         stock: 10,
         imgURL: "IMG/img/batmannegra.jpg",
         category: "Remeras"
     },
     {
         id: 2,
-        name: "Taza Harry Potter",
-        price: 550,
+        name: "Remera California",
+        price: 1350,
         stock:5,
-        imgURL: "IMG/img/tazaHP.jpg",
-        category:"Tazas"
+        imgURL: "IMG/img/CALIFORNIA.jpg",
+        category:"Remeras"
     },
     {
         id: 3,
-        name: "Funda Harry Potter",
-        price: 650,
+        name: "Remera Metallica",
+        price: 1350,
         stock:10,
-        imgURL: "IMG/img/fundaHP.jpg",
-        category: "Fundas"
+        imgURL: "IMG/img/metallica.jpg",
+        category: "Remeras"
     },
     {
         id: 4,
         name: "Remera La Sirenita",
-        price: 1000,
+        price: 1350,
         stock:5,
         imgURL: "IMG/img/duh.jpg",
         category: "Remeras"
@@ -39,7 +38,7 @@ const ItemListContainer = (parametros) => {
     {
         id: 5,
         name: "Remera de los GUN'S",
-        price: 600,
+        price: 1350,
         stock:5,
         imgURL: "IMG/img/guns1.jpg",
         category: "Remeras"
@@ -47,7 +46,7 @@ const ItemListContainer = (parametros) => {
     {
         id: 6,
         name: "Remera Jocker",
-        price: 800,
+        price: 1350,
         stock:10,
         imgURL: "IMG/img/jocker.jpg",
         category: "Remeras"

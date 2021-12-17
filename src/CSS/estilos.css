@@ -58,9 +58,19 @@ footer{
     text-align: center;
 }
 
+.ListGroup{
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.ItemBox{
+    padding: 0.5rem;
+}
+
 #contador-card{
     padding: auto;
-    margin: 2em;
+    margin: auto;
     display: flex;
     text-align: center;
     border-radius: 5px;

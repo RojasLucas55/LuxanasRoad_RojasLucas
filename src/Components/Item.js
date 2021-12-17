@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import Contador from "./ItemCount";
 const Item = ({ product }) => {
     return (
-        <div>
+        <div className="ItemBox">
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={product.imgURL} />
                 <Card.Body>
