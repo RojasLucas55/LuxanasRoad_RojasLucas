@@ -6,8 +6,8 @@ const App = () => {
     return (
         <>
             <Header id= "componente-header"/>
-            <ItemListContainer saludo=" Welcome To Luxana's Road "/>
             <Main/>
+            <ItemListContainer/>
             <Footer/>
         </>
     )
